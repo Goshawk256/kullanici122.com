@@ -1,0 +1,29 @@
+{
+    "uyeler": [
+      {
+        "id": 1,
+        "ad": "Ahmet",
+        "soyad": "Yılmaz",
+        "email": "ahmet@example.com",
+        "telefon": "5551234567",
+        "sifre": "ahmet123"
+      },
+      {
+        "id": 2,
+        "ad": "Ayşe",
+        "soyad": "Kaya",
+        "email": "ayse@example.com",
+        "telefon": "5557654321",
+        "sifre": "ayse456"
+      },
+      {
+        "id": 3,
+        "ad": "Mehmet",
+        "soyad": "Demir",
+        "email": "mehmet@example.com",
+        "telefon": "5559876543",
+        "sifre": "mehmet789"
+      }
+    ]
+  }
+  

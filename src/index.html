@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ukulele.com</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <style>
+            .navbar-shadow {
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5); /* Buradaki değerleri istediğiniz gibi ayarlayabilirsiniz */
+}
+            .body-color{
+                background-color: #dcd6d2;
+            }
+        </style>
+</head>
+
+<body class="body-color">
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary py-3 navbar-shadow " data-bs-theme="dark">
+
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="index.html">
+                <img src="/images/icon.png" width="30" height="30" class="d-inline-block align-text-top">
+                ukulele.com
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav ">
+                    <li class="nav-item  px-3">
+                        <a class="nav-link active  " aria-current="page" href="index.html">
+                            <img src="/images/home.png" width="30" height="30" class="d-inline-block align-text-top">
+                            Anasayfa</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link by-3  " href="kategori.html">
+                            <img src="/images/musicians.png" width="30" height="30" class="d-inline-block align-text-top">
+                            Müzisyenler</a>
+                    </li>
+                    <li class="nav-item px-3 ">
+                        <a class="nav-link" href="cekilis.html">
+                            <img src="/images/adversiments.png" width="30" height="30" class="d-inline-block align-text-top">
+                            İlanlar</a>
+                    </li>
+
+                    
+
+                    <li class="nav-item px-3">
+                        <a class="nav-link by-3 " href="enterancepage.html">
+                            <img src="/images/signin.png" width="30" height="30" class="d-inline-block align-text-top">
+                            Giriş yap</a>
+                    </li>
+                    <li class="nav-item px-3">
+                        <a class="nav-link by-3 " href="signup.html">
+                            <img src="/images/signup.png" width="30" height="30" class="d-inline-block align-text-top">
+                            Üye ol</a>
+                    </li>
+                    <li class="nav-item  px-3">
+                        <a class="nav-link " href="bilet.html">
+                            <img src="/images/help.png" width="30" height="30" class="d-inline-block align-text-top">
+                            Destek Ekibi</a>
+                      
+                    </li>
+                    <li>
+                        <div class="container-fluid">
+
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2 " type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-secondary " type="submit">
+                                    <img src="/images/search.png" width="30" height="30" class="d-inline-block align-text-top">
+                                    </button>
+                            </form>
+                        </div>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+
+
+    <div class="container-md-12   my-5  ">
+<div class="row justify-content-between py-5 px-3">
+    <div class="col-md-8 py-5 px-5 " >
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner rounded-3">
+              <div class="carousel-item active">
+                <img src="/images/urun1.gif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/images/urun2.gif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="/images/urun3.gif" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </div>
+    <div class="col-md-4 py-5 px-5 mr-5 ">
+        <div class="card">
+            <img src="/images/kazanan.gif" class="card-img-top" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+    </div>
+</div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="container-md-12  ">
+        <div class="row justify-content-around">
+            <div class="col-md px-5 py-5">
+                <div class="card" >
+                    <img src="/images/imageUrun.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md px-5 py-5">
+                <div class="card" >
+                    <img src="/images/imageUrun.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md px-5 py-5">
+                <div class="card">
+                    <img src="/images/imageUrun.gif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of
+                            the card's content.</p>
+                        <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+        <div class="container-md-12   py-5">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="/images/flow.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/images/flow.png" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="/images/flow.png" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+
+    </div>
+
+
+    <div class="container-md-12 my-5 ">
+     <div class="row-justify-content-between align-text-left">
+        <div class="col mx-5 mt-5 mb-2">
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Error id optio accusantium. Facilis, fuga! Reiciendis, voluptatem vitae. Minus quis adipisci saepe, tempore odio deleniti voluptatibus, dignissimos quos, odit reiciendis pariatur!
+Ad rerum repellat maiores ipsum similique molestiae! Delectus error vero facere voluptate eligendi alias libero tenetur modi aspernatur voluptas aliquid incidunt possimus repudiandae ipsam voluptatum temporibus officia architecto, repellat cumque.
+Sapiente aliquid, rem aut incidunt optio inventore unde. Sed facere excepturi explicabo esse reiciendis corrupti dolores tempora? Vitae repudiandae, aspernatur perspiciatis blanditiis atque aperiam sint fugiat nesciunt laborum fugit eius?
+Pariatur culpa expedita eius adipisci, nisi sapiente aut sunt excepturi, accusamus natus aliquid totam quas deleniti tenetur mollitia animi eum ipsam voluptatibus. Deserunt tempora error cupiditate mollitia, sint animi. Accusamus.
+Quisquam in voluptates quos et. Quas at, dolor quam, amet nemo quod impedit consequatur rem quo corrupti rerum accusamus iusto iure quia recusandae pariatur sequi similique ipsa ratione cupiditate cumque.
+Alias illo molestias impedit dolorem, dignissimos quia itaque exercitationem quaerat, tempora, sunt necessitatibus delectus? Delectus deserunt quas ex, aliquid quidem totam vitae, tenetur velit voluptate ut nesciunt consequatur similique atque.
+Aperiam id assumenda repudiandae blanditiis eos autem doloribus ullam? Hic minima corrupti tempora ipsum accusamus architecto voluptatum modi delectus, consequuntur cum impedit, dolorem possimus magni mollitia culpa fugit voluptate nemo!
+Reprehenderit facere ad nihil amet maiores? Voluptates sint impedit voluptate autem assumenda in possimus at incidunt laboriosam aperiam voluptas esse ipsam aut nihil ipsa, pariatur quae? Saepe reprehenderit eaque vero.
+Deserunt, itaque. Sequi quasi quas commodi, maxime blanditiis dolores ut nesciunt rerum impedit ab, ex tenetur autem incidunt? Sequi, omnis. Vel ullam debitis doloremque in beatae laboriosam fuga, perspiciatis autem?
+Similique illo quasi eos perferendis iste nobis, modi eligendi ipsam autem accusantium recusandae laborum alias commodi! Perferendis, dolorem nam! Soluta, quasi voluptatum qui distinctio nihil accusantium quas sunt modi fugit!
+        </div>
+        <div class="col mx-5 mt-5 ">
+<h3>İletişime Geçin</h3>
+<h1>birisi@exapmle.com</h1>
+<h3>Tel:0212 123 45 67</h3>
+<h3>Kandilli Cad. No:0123 Beykoz / İstanbul</h3>
+<a href="index.html">
+    <img src="/images/x.png" width="30" height="30" class="d-inline-block ">
+    
+</a>
+<a href="index.html">
+    <img src="/images/instagram.png" width="30" height="30" class="d-inline-block mx-5 ">
+    
+</a>
+<a href="index.html">
+    <img src="/images/facebook.png" width="30" height="30" class="d-inline-block ">
+    
+</a>
+        </div>
+     </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"
+        integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
